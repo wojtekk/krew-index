@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: aws-rds-proxy
 spec:
-  version: v1.0.0
+  version: v2.0.0
   homepage: https://github.com/wojtekk/aws-rds-proxy
   shortDescription: Proxy to AWS RDS Cluster or Instance via Kubernetes
   description: |
@@ -24,8 +24,8 @@ spec:
             values:
               - darwin
               - linux
-      uri: https://github.com/wojtekk/kubectl-aws-rds-proxy/archive/v1.0.1.tar.gz
-      sha256: 86a47da216f9b24c641889aab8d03602a38640f62fdda817a53e01b8fe1f14bb
+      uri: https://github.com/wojtekk/kubectl-aws-rds-proxy/archive/v2.0.0.tar.gz
+      sha256: df0d4a26c426e8a7fb42d5c02b10bdb7ce73d726f1f48059d836c1377601ea25
       files:
         - from: kubectl-aws-rds-proxy-*/kubectl-aws_rds_proxy
           to: .
