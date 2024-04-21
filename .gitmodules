@@ -1,0 +1,3 @@
+[submodule "sources/kubectl-aws-rds-proxy"]
+	path = sources/kubectl-aws-rds-proxy
+	url = https://github.com/wojtekk/kubectl-aws-rds-proxy
